@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.scss';
+import CartWidget from './imagenes/cart'
 
 const NavBar = () => {
     return (
@@ -33,6 +34,7 @@ const NavBar = () => {
       </ul>
     </div>
   </div>
+  <icono />
 </nav>
     )
 }
