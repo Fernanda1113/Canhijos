@@ -1,14 +1,12 @@
 import React from 'react'
-import logo from '.cart.png'
 
-class icono extends Component {
- render(){
-     return(
-         <img src={logo} className='icono'/>
-     )
- }
-}
+class Cart extends React.Component {
+    render() {
+      return (
+        <img src="./imagenes/cart.png" style={{ position: 'absolute'}} />
+      );
+    }
+  }
 
-export default icono
-
+export default Cart
 

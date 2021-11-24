@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemListContainer = ({greeting}) => {
     return(
-       <h3></h3>
+       <h3>HOLA! Bienvenido a la mejor tienda para tus CanHijos</h3>
         
     )
 }

@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar/NavBar"
 import ItemListContainer from './components/ItemListContainer';
-//import icono from './components/CartWidget';
+
 
 const StComponente = () => {
   return(
@@ -15,12 +15,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar />
-        <ItemListContainer greeting={'Hola, Bienvenido'} />
+        
         <img src={'./logoCanhijo.png'}/>
         <StComponente />
+
         <p>
           Bienvenidos CanHijos
         </p>
+        <ItemListContainer />
       </header>
     </div>
   );

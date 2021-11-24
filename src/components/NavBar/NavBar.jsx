@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.scss';
 import CartWidget from './imagenes/cart'
+import Cart from '../CartWidget';
 
 const NavBar = () => {
     return (
@@ -34,9 +35,11 @@ const NavBar = () => {
       </ul>
     </div>
   </div>
-  <icono />
+
 </nav>
     )
+    
 }
+<Cart />
 
 export default NavBar;
